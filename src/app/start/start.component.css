@@ -1,0 +1,31 @@
+
+
+
+
+.start{
+    height: 580px;
+    background-color: #1ABC9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-line {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}
+
+.right-line {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}
+
+.decoration i {
+    color: white;
+}
+.avatar{
+    width: 250px;
+    margin-top: 150px;
+}

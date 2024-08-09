@@ -1,0 +1,99 @@
+<div>
+  <div class="container-floid portfolio">
+    <h1 class="text-center fw-bolder">PORTFOLIO COMPONENT</h1>
+    <div
+      class="decoration text-center d-flex justify-content-center align-items-center pt-2"
+    >
+      <div class="left-line me-3"></div>
+      <i class="fa-solid fa-star"></i>
+      <div class="right-line ms-3"></div>
+    </div>
+
+    <div class="photos container mt-3">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="photo-1 position-relative" (click)="open('poert1.png')">
+            <img src="../../assets/poert1.png" class="w-100 rounded-3" />
+            <div
+              class="overlay rounded-3 w-100 d-flex justify-content-center align-items-center"
+            >
+              <div class="text-white fa-solid fa-plus fa-6x"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="photo-2 position-relative">
+            <img src="../../assets/port2.png" class="w-100 rounded-3" />
+            <div
+              (click)="open('port2.png')"
+              class="overlay rounded-3 w-100 d-flex justify-content-center align-items-center"
+            >
+              <div class="text-white fa-solid fa-plus fa-6x"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="photo-3 position-relative">
+            <img src="../../assets/port3.png" class="w-100 rounded-3" />
+            <div
+              (click)="open('port3.png')"
+              class="overlay rounded-3 w-100 d-flex justify-content-center align-items-center"
+            >
+              <div class="text-white fa-solid fa-plus fa-6x"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-lg-4">
+          <div class="photo-1 position-relative">
+            <img src="../../assets/poert1.png" class="w-100 rounded-3" />
+            <div
+              (click)="open('poert1.png')"
+              class="overlay rounded-3 w-100 d-flex justify-content-center align-items-center"
+            >
+              <div class="text-white fa-solid fa-plus fa-6x"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="photo-2 position-relative">
+            <img src="../../assets/port2.png" class="w-100 rounded-3" />
+            <div
+              (click)="open('port2.png')"
+              class="overlay rounded-3 w-100 d-flex justify-content-center align-items-center"
+            >
+              <div class="text-white fa-solid fa-plus fa-6x"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="photo-3 position-relative">
+            <img src="../../assets/port3.png" class="w-100 rounded-3" />
+            <div
+              (click)="open('port3.png')"
+              class="overlay rounded-3 w-100 d-flex justify-content-center align-items-center"
+            >
+              <div class="text-white fa-solid fa-plus fa-6x"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@if(isClicked===true){
+
+<div class="container-fluid slider-body ">
+  <div class="slider">
+    <div class="slider-photo position-relative">
+      <img [src]="imageSrc" class="w-100" />
+      <i class="fa-regular fa-circle-xmark " (click)="close()"></i>
+    </div>
+  </div>
+</div>
+}
+
+<!-- @if(imageSrc) -->

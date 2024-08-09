@@ -1,0 +1,62 @@
+
+.foter{
+    background-color: #2C3E50;
+    height: 280px;
+}
+.site-map{
+    background-color: #1A252F;
+    height: 90px;
+}
+.facebook{
+width: 35px;
+height: 35px;
+background-color: transparent;
+border: solid 1px white;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.twetter{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.globe{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.around-web{
+    margin-bottom: 30px;
+}
+.around-web h2{
+    font-size: 28px;
+}
+.about-freelacer h2{
+    font-size: 28px;
+}
+.location h2{
+    font-size: 28px;
+}

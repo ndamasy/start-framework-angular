@@ -1,0 +1,22 @@
+h1{
+    font-size: 40px;
+   padding-top: 100px;
+    font-weight: 700;
+}
+
+.left-line{
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}
+.right-line{
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}
+.about{
+    padding-top: 100px;
+    height: 600px;
+    background-color: #1ABC9C;
+    color: white;
+}
