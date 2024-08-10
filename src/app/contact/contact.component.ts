@@ -13,11 +13,11 @@ import { FormsModule } from '@angular/forms';
 export class ContactComponent {
 
   userName: string = '';
-  placeholder: string = '';
+
 
   changeInput(inputData:any) {
     if(inputData.value ) {
-      this.placeholder ='user Name' ;
+     
       console.log('hi')
     }
   }

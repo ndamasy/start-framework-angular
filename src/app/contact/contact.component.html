@@ -13,30 +13,33 @@
       class="form d-flex flex-column justify-content-center align-items-center position-relative"
     >
       <div class="userName w-50">
-        <div class="title w-100"><h2>{{userName}}</h2></div> 
-        
-        <div class="input-group mb-3">
-          <input type="text" [(ngModel)]="userName" (keyup)="changeInput(userName)" class="form-control" placeholder="user Name" aria-label="Username" aria-describedby="basic-addon1">
+        <div class="form-floating mb-3 w-100">
+          <input type="text" class="form-control" id="floatingInput" placeholder="user Name">
+          <label for="floatingInput">User Name</label>
         </div>
       </div>
+
       <div class="userAge w-50">
-        <!-- <div class="title w-100" ><h2>user Age</h2></div>  -->
-        <div class="input-group mb-3">
-          <input  type="number" class="form-control" placeholder="user Age" aria-label="user Age" aria-describedby="basic-addon1">
+        <div class="form-floating mb-3 w-100">
+          <input type="number" class="form-control" id="floatingInput" placeholder="user Age">
+          <label for="floatingInput">User Age</label>
         </div>
       </div>
+
       <div class="userEmail w-50">
-        <!-- <div class="title w-100"><h2>user Email:</h2></div>  -->
-        <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="user Email" aria-label="user Email" aria-describedby="basic-addon1">
+        <div class="form-floating mb-3 w-100">
+          <input type="email" class="form-control" id="floatingInput" placeholder="user Email">
+          <label for="floatingInput">User Email</label>
         </div>
       </div>
+
       <div class="userPassword w-50">
-        <!-- <div class="title w-100"><h2>user password:</h2></div>  -->
-        <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="user Password" aria-label="user password" aria-describedby="basic-addon1">
+        <div class="form-floating w-100">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">User Password</label>
         </div>
       </div>
+
       <div class="message bg-warning">
         <button class="btn position-absolute">Send Message</button>
       </div>
@@ -45,3 +48,4 @@
 </div>
 
 
+<!-- [(ngModel)]="userName" -->
